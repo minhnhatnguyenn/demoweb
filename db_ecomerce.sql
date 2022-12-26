@@ -101,10 +101,10 @@ CREATE TABLE `deliver` (
 --
 
 INSERT INTO `deliver` (`id`, `name`, `dob`, `phone_number`, `is_ready`) VALUES
-(1, 'Đinh Trung Kiên', '2003-06-13', '0975632174', 1),
-(2, 'Dùng Duy Mạnh', '2001-10-28', '0963475124', 1),
-(3, 'Nguyễn Duy Khương', '2004-02-15', '0963475124', 1),
-(4, 'Trịnh Thảo Ly', '2001-11-16', '0985362147', 1);
+(1, 'Đinh Trung Hiền', '2003-06-13', '0975632175', 1),
+(2, 'Hà Ngọc Thanh', '2002-10-28', '0963474568', 1),
+(3, 'Nguyễn Duy Trung', '2004-02-15', '0963475544', 1),
+(4, 'Trịnh Thảo Hoàng', '2001-11-16', '0985362456', 1);
 
 -- --------------------------------------------------------
 
@@ -132,8 +132,8 @@ CREATE TABLE `guest_bill` (
 INSERT INTO `guest_bill` (`id`, `status_id`, `name`, `phone_number`, `address`, `total`, `created_time`, `payment_mode_id`, `note`, `deliver_id`) VALUES
 ('G1', 3, '', '', '', 22480800, '2022-01-11 06:14:10', 1, '', 1),
 ('G2', 1, '', '', '', 22480800, '2022-01-11 06:15:31', 1, '', NULL),
-('G3', 1, 'Hưng Ngọc Nguyễn', '0973360301', '12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội', 56970000, '2022-01-11 06:23:33', 1, '', NULL),
-('G5', 1, 'Hưng Ngọc Nguyễn', '0973360301', '12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội', 84170000, '2022-01-11 06:39:49', 1, '', NULL);
+('G3', 1, 'Bình An Trần', '0868197116', '12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội', 56970000, '2022-12-20 06:23:33', 1, '', NULL),
+('G5', 1, 'Bình An Trần', '0868197116', '12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội', 84170000, '2022-12-20 06:39:49', 1, '', NULL);
 
 --
 -- Triggers `guest_bill`
