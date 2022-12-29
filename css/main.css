@@ -1,0 +1,533 @@
+.modal-login {		
+    color: #636363;
+    width: 350px;
+    margin: 80px auto 0;
+  }
+  .modal-login .modal-content {
+    padding: 20px;
+    border-radius: 5px;
+    border: none;
+  }
+  .modal-login .modal-header {
+    border-bottom: none;   
+    position: relative;
+    justify-content: center;
+  }
+  .modal-login h4 {
+    text-align: center;
+    font-size: 26px;
+    margin: 30px 0 -15px;
+  }
+  .modal-login .form-control:focus {
+    border-color: #70c5c0;
+  }
+  .modal-login .form-control, .modal-login .btn {
+    min-height: 40px;
+    border-radius: 3px; 
+  }
+  .modal-login .close {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+  }	
+  .modal-login .modal-footer {
+    background: #ecf0f1;
+    border-color: #dee4e7;
+    text-align: center;
+    justify-content: center;
+    margin: 0 -20px -20px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  .modal-login .modal-footer a {
+    color: #999;
+  }		
+  .modal-login .avatar {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -70px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #e95454;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+
+  #modalRegister .avatar{
+      background: #0B52D0;
+  }
+
+  .modal-login .avatar img {
+    width: 100%;
+  }
+  .modal-login .btn {
+    color: #fff;
+    border-radius: 4px;
+    background: #e95454;
+    text-decoration: none;
+    transition: all 0.4s;
+    line-height: normal;
+    border: none;
+  }
+
+  #modalRegister .btn{
+    background: #0B52D0;
+}
+
+  .modal-login .btn:hover, .modal-login .btn:focus {
+    background: #e95454;
+    outline: none;
+  }
+  .trigger-btn {
+    display: inline-block;
+  }
+
+.btn_dk{
+    width: 100%;
+}
+
+.btn_dk td{
+  width: calc(50%-15px);
+  padding: 15px;
+  justify-content: space-between;
+}
+
+.btn_dk #btn_dk--ok{
+  width: 100px;
+}
+
+.btn_dk #btn_dk--re{
+  width: 100px;
+}
+
+
+.tbl_name{
+    width: 100%;
+}
+
+.tbl_name .tbl_name--firstname{
+    width: calc(50%-5px);
+    padding: 0 15px 0 0;
+}
+
+.tbl_name .tbl_name--lastname{
+  width: calc(50%-5px);
+  padding: 0 0 0 15px;
+}
+
+#header__right{
+    padding: 0 15px 0 0;
+}
+
+/* info bank */
+.info_ck{
+  display: table;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.42857143;
+}
+
+.info_ck--p{
+  display: table;
+  width: 100%;
+}
+
+.info_ck .info_ck--p>div:first-child{
+  width: calc(100% - 150px);
+}
+
+.info_ck .info_ck--p>div{
+  display: table-cell;
+  padding: 10px 0 10px 0;
+}
+
+.info_ck .info_ck--p>div:last-child{
+  width: 150px;
+  text-align: right;
+}
+
+.info_ck .info_ck--p>div{
+  display: table-cell;
+  padding: 10px 0 10px 0;
+}
+
+
+
+/* .fix_quantity .fix_quantity__minus{
+  width: calc(100%/3);
+  float: left;
+  border: 1px solid #dfdfdf;
+  height: 32px;
+  background-color: #D10024;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+} */
+
+
+
+
+/* .fix_quantity .fix_quantity__plus{
+  width: calc(100%/3);
+  float: left;
+  border: 1px solid #dfdfdf;
+  height: 32px;
+  background-color: #D10024;
+  cursor: pointer;
+  position: relative;
+  top: 10px;
+} */
+
+
+/* .fix_quantity__select--input{
+  width: 100%;
+  height: 31px;
+  margin: auto;
+  text-align: center;
+} */
+
+/* .fix_quantity__minus #minus{
+    width: 13px;
+    height: 3px;
+    color: white;
+    padding: 10px 10px 0 0;
+} */
+
+/* .fix_quantity__plus #plus{
+  width: 13px;
+  height: 3px;
+  color: white;
+  padding: 7px 10px 0 0;
+} */
+
+.btn--user{
+  width: 100px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #E95454;
+  border: 1px solid #E95454;
+  margin: auto;
+  color: white;
+}
+
+.product-img{
+  height: 240px;
+}
+.product-img>img{
+  padding: 8px 16px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.product-widget>.product-img{
+  height: fit-content;
+}
+.product-widget>.product-img>img{
+  width: 80px;
+}
+.order-col{
+  position: relative;
+  display: inline-block;
+}
+
+.order-products .delete {
+  position: absolute;
+  height: 14px;
+  width: 14px;
+  text-align: center;
+  font-size: 10px;
+  padding: 0;
+  background: #1e1f29;
+  border: none;
+  color: #FFF;
+}
+
+/* điều chỉnh số lượng checkout */
+.fix_quantity{
+  width: 100.6px;
+  height: 40px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+.fix_quantity .fix_quantity--quantity{
+  margin: auto;
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  left: 53%;
+  text-align: center;
+}
+.delete{
+  position: absolute;
+  left: -20px;
+  top: 13px;
+}
+
+#btn_payment{
+  margin: auto;
+}
+
+/* điều chỉnh form đăng ký */
+.btn_dk{
+  width: 100%;
+}
+
+.btn_dk td{
+width: calc(50%-15px);
+padding: 15px;
+justify-content: space-between;
+}
+
+.btn_dk #btn_dk--ok{
+width: 100px;
+}
+
+.btn_dk #btn_dk--re{
+width: 100px;
+}
+
+/* css form info user */
+#width_modal{
+  width: 450px;
+  margin: auto
+}
+.formuser{
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  margin: auto;
+  width: 450px;
+  height: 425px;
+}
+
+#btn_close_changeusr{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+.formuser .heading_user{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.heading_user--hd{
+  font-size: 30px;
+  color: #333;
+  line-height: 1.2;
+  font-weight: 500;
+}
+
+.heading_user .hd_comment{
+  position: relative;
+  bottom: 5px;
+  font-size: 10px;
+  line-height: 1.0625rem;
+  color: #555;
+}
+.hr_user{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  width: 380px;
+}
+
+.frm_user{
+  width: 420px;
+  margin: auto;
+}
+
+.frm_user__info{
+  margin-bottom: 30px;
+}
+
+.btn--user{
+  width: 100px;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #E95454;
+  border: 1px solid #E95454;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+.frm_user__info--lbl{
+  width: 30%;
+  text-align: left;
+    position: relative;
+  left: 30px;
+  color: rgba(85,85,85,.8);
+  text-transform: capitalize;
+  font-size: 12px;
+}
+
+.frm_user__info--input{
+  width: 52%;
+  margin-left: 8px;
+  position: relative;
+  left: 30px;
+  border-radius: 1px;
+  border: 1px solid rgba(0,0,0,.14);
+  outline: none;
+}
+
+.frm_user__info--input:focus{
+  border: 1px solid #70c5c0;
+}
+
+
+/* change password */
+#width_modal_2{
+  width: 450px;
+  margin: auto;
+}
+.formpassword{
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  margin: auto;
+  width: 450px;
+  height: 400px;
+}
+
+.formpassword .heading_user{
+  padding-top: 40px;
+  text-align: center;
+}
+
+.show-btn{
+  float: right;
+  position: absolute;
+  right: 55px;
+  z-index: 1;
+}
+
+#btn_close_changepsw{
+  position: absolute;
+  right: 30px;
+  top: 10px;
+}
+
+/* order_detail */
+.frm_history{
+  margin: 0;
+}
+
+
+.frm_history .heading{
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 1270px;
+}
+
+.tbl_detail{
+  width: 100%;
+}
+
+.tbl_detail td{
+  border: 1px solid black;
+  text-align: center;
+  height: 80px;
+}
+
+.tbl_detail th{
+  border: 1px solid black;
+  text-align: center;
+}
+
+.id_th{
+  width: 8%;
+}
+
+.total_th{
+  width: 12%;
+}
+
+.crttime_th{
+  width: 20%;
+}
+
+.address_th{
+  width: 35%;
+}
+
+.page_number_h #nb_page{
+  position: relative;
+  left: 45%;
+}
+
+/* inside modal */
+.name_th{
+  width: 20%;
+}
+
+.image_th{
+  width: 30%;
+}
+
+.image_th{
+  width: 25%;
+}
+
+.image_th{
+  width: 25%;
+}
+
+
+.destroy_bill{
+  display: block;
+  margin: auto;
+}
+
+.destroy_bill button{
+  margin-left: 38%;
+  margin-top: 20px;
+}
+
+
+
+/* product detail */
+#detai_product_main{
+  width: 800px;
+  display: block;
+}
+
+.detai_product_img{
+  width: 300px;
+  float: left;
+}
+.detai_product_img img{
+  max-width: 100%;
+}
+
+.detail_product_info{
+  background-color: white;
+  width: 498px;
+  float: left;
+  height: 300px;
+}
+
+/* css looking for */
+.show_product_lookingfor{
+  width: 1270px;
+  display: block;
+  margin: auto;
+}
+
+#product_show_lookingfor{
+  width: 20%;
+  padding: 0 15px 45px 15px;
+
+}
+
+#set_product{
+  width: 100%;
+  margin: auto;
+}
+.infoproduct img{
+  max-width: 100%;
+}
