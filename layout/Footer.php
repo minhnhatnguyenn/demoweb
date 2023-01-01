@@ -3,7 +3,7 @@
     <!-- top footer -->
     <div class = "section">
         <!-- container -->
-        <div class = "container">
+        <div class = "container">`
             <!-- row -->
             <div class = "row">
                 <div class = "col-md-3 col-xs-6">
