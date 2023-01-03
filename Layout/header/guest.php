@@ -91,7 +91,7 @@
 				<div class="col-md-3">
 					<div class="header-logo">
 						<a href="index.php" class="logo">
-							<img src="img/logo-header.png" title="TECH5" alt="logo">
+							<img src="img/logo.png" title="TECH5" alt="logo">
 						</a>
 					</div>
 				</div>

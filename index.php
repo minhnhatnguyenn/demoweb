@@ -12,6 +12,9 @@ if (isset($_SESSION["active"]))
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<title>TECH5</title>
+		<link rel ='icon' href = 'img/title.png'>
+
 		<script type="text/javascript">
         var no = 20;
         if (matchMedia('only screen and (max-width: 767px)').matches) {
@@ -85,9 +88,6 @@ if (isset($_SESSION["active"]))
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-		<title>TECH5</title>
-		<link rel ='icon' href = 'img/logo-tittle.png'>
 
 		<!-- Google font -->
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
