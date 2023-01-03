@@ -285,7 +285,7 @@
                         $nav = $_GET["nav"];
                         if ($nav == "usr")
                         {
-                            include ("layout/User.php");
+                            include ("layout/NewOrders/User.php");
                         }
                         else if ($nav == "products")
                         {
