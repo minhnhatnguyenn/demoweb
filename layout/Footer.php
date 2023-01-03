@@ -17,7 +17,7 @@
                                 <a href = "#"><i class = "fa fa-phone"></i>0868197116</a>
                             </li>
                             <li>
-                                <a href = "#"><i class = "fa fa-envelope-o"></i>Chikara@email.com</a>
+                                <a href = "#"><i class = "fa fa-envelope-o"></i>CEO: anbinh150803@email.com</a>
                             </li>
                             <li>
                                 <a><iframe src = "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3724.5884918509983!2d105.82661915060876!3d21.009126385940355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ac800f450807%3A0x419a49bcd94b693a!2zSOG7jWMgdmnhu4duIE5nw6JuIGjDoG5n!5e0!3m2!1svi!2s!4v1640889844491!5m2!1svi!2s" width = "815" height = "250" style = "border:0;" allowfullscreen = "" loading = "lazy"></iframe></a>
@@ -31,13 +31,13 @@
                         <h3 class = "footer-title">Theo dõi chúng tôi</h3>
                         <ul class = "footer-links">
                             <li>
-                                <a href = "https://www.facebook.com/Chikara-Electric-104182552149002" target="_blank"><i class = "fa fa-facebook-square"></i>Chikara</a>
+                                <a href = "https://www.facebook.com/profile.php?id=100088740327226" target="_blank"><i class = "fa fa-facebook-square"></i>TECH5</a>
                             </li>
                             <li>
-                                <a href = "http://mis.hvnh.edu.vn/" target="_blank"><i class = "fa fa-youtube-play"></i>Chikara Office</a>
+                                <a href = "http://mis.hvnh.edu.vn/" target="_blank"><i class = "fa fa-youtube-play"></i>TECH5</a>
                             </li>
                             <li>
-                                <a href = "http://mis.hvnh.edu.vn/" target="_blank"><i class = "fa fa-instagram"></i>Chikara</a>
+                                <a href = "http://mis.hvnh.edu.vn/" target="_blank"><i class = "fa fa-instagram"></i>tech5.studio</a>
                             </li>
                         </ul>
                     </div>
