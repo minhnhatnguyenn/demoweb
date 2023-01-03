@@ -4,9 +4,9 @@
 	<div id="top-header">
 		<div class="container">
 			<ul class="header-links pull-left">
-				<li><a href="#"><i class="fa fa-phone"></i>0833300716</a></li>
-				<li><a href = "https://www.facebook.com/Chikara-Electric-104182552149002" target="_blank"><i class = "fa fa-facebook-square"></i>Chikara</a></li>
-				<li><a href="https://www.google.com/maps/place/H%E1%BB%8Dc+vi%E1%BB%87n+Ng%C3%A2n+h%C3%A0ng/@21.0091314,105.8266192,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ac800f450807:0x419a49bcd94b693a!8m2!3d21.0091264!4d105.8288132" target="_blank"><i class="fa fa-map-marker"></i>12 chùa bộc, Hà Nội</a></li>
+				<li><a href="#"><i class="fa fa-phone"></i>0868 197 116</a></li>
+				<li><a href = "https://www.facebook.com/profile.php?id=100088740327226" target="_blank"><i class = "fa fa-facebook-square"></i>TECH5</a></li>
+				<li><a href="https://www.google.com/maps/place/H%E1%BB%8Dc+vi%E1%BB%87n+Ng%C3%A2n+h%C3%A0ng/@21.0091314,105.8266192,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ac800f450807:0x419a49bcd94b693a!8m2!3d21.0091264!4d105.8288132" target="_blank"><i class="fa fa-map-marker"></i>12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội</a></li>
 			</ul>
 			<ul class="header-links pull-right" id ="header__right">
 				<li><a href="#"><i class="fa fa-dollar"></i> VND</a></li>
@@ -91,7 +91,7 @@
 				<div class="col-md-3">
 					<div class="header-logo">
 						<a href="index.php" class="logo">
-							<img src="img/logo-header.png" alt="logo">
+							<img src="img/logo-header.png" title="TECH5" alt="logo">
 						</a>
 					</div>
 				</div>
