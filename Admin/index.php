@@ -10,7 +10,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-		<title>CHIKARA</title>
+		<title>TECH5</title>
         <link rel ='icon' href = '../img/logo-tittle.png'>
 
 		<!-- Google font -->
