@@ -1,15 +1,12 @@
 <?php
-$servername = 'localhost';
-$username = 'root';
-$password = '';
-$dbname = 'demoweb';
-
-$conn= new mysqli($servername, $username, $password, $dbname);
-
-if ($conn->connect_error){
-    die("Connection failed: " . $conn->connect_error);
+session_start();
+require 'conn.php';
+$userId = null;
+$roleId = null;
+if (isset($_SESSION["active"]))
+{
+	setcookie('guest', null, -1, '/'); 
 }
-mysqli_query($conn,'set names utf8');
 // Ket noi CSDL
 ?>
 <!DOCTYPE html>
@@ -415,10 +412,10 @@ mysqli_query($conn,'set names utf8');
 				<div class="row">
 					<div class="col-md-12">
 						<div class="newsletter">
-							<p>Nhận Mail thông báo từ <strong>WEBSITE</strong></p>
+							<p>Nhận Mail thông báo từ <strong>TECH5</strong></p>
 							<form>
 								<input class="input" type="email" placeholder="Nhập Email">
-								<button class="newsletter-btn"><i class="fa fa-envelope"></i> Subscribe</button>
+								<button class="newsletter-btn"><i class="fa fa-envelope"></i><a href= "mailto:mistech5.studio@gmail.com"> <strong>Send</strong></a></button>
 							</form>
 							<ul class="newsletter-follow">
 								<li>

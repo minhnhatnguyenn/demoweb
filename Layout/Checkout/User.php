@@ -163,7 +163,7 @@
 										Tên chủ tài khoản
 									</div>
 									<div>
-										Nguyễn Ngọc Hưng
+										Trần An Bình
 									</div>
 								</div>
 								<div class = "info_ck--p">
@@ -171,7 +171,7 @@
 										Số tài khoản
 									</div>
 									<div>
-										208440373
+										19036750603012
 									</div>
 								</div>
 								<div class = "info_ck--p">
@@ -179,7 +179,7 @@
 										Ngân hàng
 									</div>
 									<div>
-										VP bank
+										Techcombank
 									</div>
 								</div>
 							</div>

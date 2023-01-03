@@ -6,7 +6,7 @@
                         <th>STT</th>
                         <th class = "id_th">Mã hóa đơn</th>
                         <th class = "total_th">Tổng tiền</th>
-                        <th class = "crttime_th">ngày tạo đơn</th>
+                        <th class = "crttime_th">Ngày tạo đơn</th>
                         <th class = "address_th">Địa chỉ</th>
                         <th class = "status_th">Tình trạng</th>
                         <th class = "info_th">Chi tiết</th>

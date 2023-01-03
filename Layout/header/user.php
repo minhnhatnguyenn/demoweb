@@ -3,8 +3,8 @@
 	<div id="top-header">
 		<div class="container">
 			<ul class="header-links pull-left">
-				<li><a href="#"><i class="fa fa-phone"></i>0833300716</a></li>
-				<li><a href = "https://www.facebook.com/Chikara-Electric-104182552149002" target="_blank"><i class = "fa fa-facebook-square"></i>Chikara</a></li>
+				<li><a href="#"><i class="fa fa-phone"></i>0868 197 116</a></li>
+				<li><a href = "https://www.facebook.com/profile.php?id=100088740327226" target="_blank"><i class = "fa fa-facebook-square"></i>TECH5</a></li>
 				<li><a href="https://www.google.com/maps/place/H%E1%BB%8Dc+vi%E1%BB%87n+Ng%C3%A2n+h%C3%A0ng/@21.0091314,105.8266192,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ac800f450807:0x419a49bcd94b693a!8m2!3d21.0091264!4d105.8288132" target="_blank"><i class="fa fa-map-marker"></i>12 chùa bộc, Hà Nội</a></li>
 			</ul>
 			<ul class="header-links pull-right" id ="header__right">
@@ -237,7 +237,7 @@
 					<div class = "frm_user">
 						<form action="actions/User/ChangeInformation.php" method ="POST">
 							<div class = "frm_user__info">
-								<label class = "frm_user__info--lbl">số điện thoại</label>
+								<label class = "frm_user__info--lbl">Số điện thoại</label>
 								<input type = "text" class="frm_user__info--input" value = "<?php echo $row_usr['id'];?>" readonly>
 							</div>
 							<div class = "frm_user__info">
@@ -249,7 +249,7 @@
 								<input type = "email" class = "frm_user__info--input" value = "<?php echo $row_usr['mail'];?>" name = "mail">
 							</div>
 							<div class = "frm_user__info">
-								<label class = "frm_user__info--lbl">địa chỉ</label>
+								<label class = "frm_user__info--lbl">Địa chỉ</label>
 								<input type = "text" class = "frm_user__info--input" value = "<?php echo $row_usr['address'];?>" name = "address">
 							</div>
 							<div class = "frm_user__info">
