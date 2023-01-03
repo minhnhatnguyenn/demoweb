@@ -309,11 +309,11 @@
                         $type = $_GET["deli"]; 
                         if ($type == "user")
                         {
-                            include ("layout/OrderNotDelivery/User.php");
+                            include ("layout/WaitingOrders/User.php");
                         }
                         else if ($type == "guest")
                         {
-                            include ("layout/OrderNotDelivery/Guest.php");
+                            include ("layout/WaitingOrders/Guest.php");
                         }
                     }
                     else{
