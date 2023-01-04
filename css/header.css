@@ -18,7 +18,7 @@
 }
 
 .menu__ngdung--1{
-    color: rgb(198, 184, 184);
+    color: rgb(0, 0, 0);
     padding: 10px 10px;
     cursor: pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0,2);
@@ -26,7 +26,7 @@
 }
 
 .menu__ngdung .menu__ngdung--2{
-    color: rgb(226, 215, 215);
+    color: #000000;
 }
 
 .menu__ngdung--1:hover{
