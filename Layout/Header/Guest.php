@@ -4,7 +4,7 @@
 	<div id="top-header">
 		<div class="container">
 			<ul class="header-links pull-left">
-				<li><a href="#"><i class="fa fa-phone"></i>0833300716</a></li>
+				<li><a href="#"><i class="fa fa-phone"></i>0868 197 116</a></li>
 				<li><a href = "https://www.facebook.com/profile.php?id=100088740327226" target="_blank"><i class = "fa fa-facebook-square"></i>TECH5</a></li>
 				<li><a href="https://www.google.com/maps/place/H%E1%BB%8Dc+vi%E1%BB%87n+Ng%C3%A2n+h%C3%A0ng/@21.0091314,105.8266192,17z/data=!3m1!4b1!4m5!3m4!1s0x3135ac800f450807:0x419a49bcd94b693a!8m2!3d21.0091264!4d105.8288132" target="_blank"><i class="fa fa-map-marker"></i>12 Chùa Bộc, Quang Trung, Đống Đa, Hà Nội</a></li>
 			</ul>
@@ -21,7 +21,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<div class="avatar">
-						<img src="img/avatar.png" alt="Avatar">
+						<img src="img/logo.png" alt="Avatar">
 					</div>				
 					<h4 class="modal-title">Đăng nhập</h4>	
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -51,7 +51,7 @@
 			<div class="modal-content">
 				<div class="modal-header">
 					<div class="avatar">
-						<img src="img/avatar.png" alt="Avatar">
+						<img src="img/logo.png" alt="Avatar">
 					</div>				
 					<h4 class="modal-title">Đăng ký</h4>	
 					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
@@ -91,7 +91,7 @@
 				<div class="col-md-3">
 					<div class="header-logo">
 						<a href="index.php" class="logo">
-							<img src="img/logo-header.png" alt="logo">
+							<img src="img/logo.png" alt="logo">
 						</a>
 					</div>
 				</div>
