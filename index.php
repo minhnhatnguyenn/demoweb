@@ -263,7 +263,7 @@ if (isset($_SESSION["active"]))
 					{
 						return document.getElementById("tel").required = true;
 					}
-					else alert('thanh toán thành công');				
+					else alert('Thanh toán thành công!');				
 				}
 			
 		</script>
@@ -539,7 +539,7 @@ if (isset($_SESSION["active"]))
 				$('.infoproduct').click(function(){
 					var idprd = $(this).data('id');
 					$.ajax({
-						url:'actions/Products/GetDetail.php',
+						url:'Actions/Product/GetDetail.php',
 						type: 'post',
 						data: {get_id: idprd},
 						success: function(response){
